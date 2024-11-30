@@ -1,7 +1,9 @@
 # PRML_Bird_Species_Classification
 This was my major Pattern Recognition and Machine Learning Project. It is a an image classification project using various machine learning techniques.
 
-This was an evaluation of various machine learning classification models and data preparation steps to evaluate how they performed and compared to each other. It was a fantastic learning experience. 
+This was an evaluation of various machine learning classification models and data preparation steps to evaluate how they performed and compared to each other. 
+
+Refer to the project report for a summary and the Jupyter Notebook file for details of the code and results.
 
 ### Project Abstract
 
