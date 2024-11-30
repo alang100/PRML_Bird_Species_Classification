@@ -5,6 +5,8 @@ This was an evaluation of various machine learning classification models and dat
 
 Refer to the project report for a summary and the Jupyter Notebook file for details of the code and results.
 
+---
+
 ### Project Abstract
 
 The accurate identification of species is
