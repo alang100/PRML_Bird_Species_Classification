@@ -36,7 +36,7 @@ further.
 
 ### Conclusion
 
-Two configurations have been tried on the random forest model, five configurations have been applied to the support vector machine model and its dataset and two on cnn.
+Two configurations have been tried on the random forest model, five configurations have been applied to the support vector machine model and its dataset and two on the CNN.
 
 The best model is clearly the CNN models. A more accurate result was obtained with a train-test ratio of 80/20.
 
