@@ -1,5 +1,5 @@
 # PRML_Bird_Species_Classification
-This was my major Pattern Recognition and Machine Learning Project.
+This was my major Pattern Recognition and Machine Learning Project. It is a an image classification project using various machine learning techniques.
 
 This was an evaluation of various machine learning classification models and data preparation steps to evaluate how they performed and compared to each other. It was a fantastic learning experience. 
 
@@ -21,7 +21,7 @@ CNN to classify the images of 10 species of birds.
 Various methods were applied to the models and the
 dataset including standardization, cross-validation
 with hyperparameter tuning in a grid search and
-feature reduction using PCA. Overfitting was
+feature reduction using PCA (Principal Component Analysis). Overfitting was
 present in the training of all models. The best results
 achieved were with a CNN model with an accuracy
 of 83% on the test set. The CNN model proved to be
