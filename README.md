@@ -6,7 +6,8 @@ This project evaluated multiple machine learning classification models, includin
 Refer to the project report for a summary and the Jupyter Notebook file for details of the code and results:  
 
 - [Project Report: PRML Bird Species Classification Final Report](PRML%20Bird%20Species%20Classififcation%20Final%20Report.pdf)
-- [Code: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.ipynb)
+- [Jupyter Notebook Code: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.ipynb)
+- [HTML Version: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.html)
 
 ---
 
