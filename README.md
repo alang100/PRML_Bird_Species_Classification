@@ -1,4 +1,4 @@
-# BirdSpecies Image Classification
+# Bird Species Image Classification
 This was my major Pattern Recognition and Machine Learning (PRML) Project, focusing on image classification using various machine learning techniques. As one of my first experiences in machine learning for image modelling, I invested significant effort into testing different approaches to image processing and data preparation. These included standardization, cross-validation with hyperparameter tuning, feature reduction using PCA, and other preprocessing techniques to optimize model performance. This allowed for a thorough exploration of how various methods impacted the accuracy and efficiency of different machine learning models.
 
 This project evaluated multiple machine learning classification models, including Random Forest, SVM, and CNN, and compared their performance on a dataset of 10 bird species. The best results were achieved with a CNN model, which outperformed the other approaches with an accuracy of 83% on the test set.
