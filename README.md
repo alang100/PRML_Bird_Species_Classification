@@ -3,7 +3,7 @@ This was my major Pattern Recognition and Machine Learning (PRML) Project, focus
 
 This project evaluated multiple machine learning classification models, including Random Forest, SVM, and CNN, and compared their performance on a dataset of 10 bird species. The best results were achieved with a CNN model, which outperformed the other approaches with an accuracy of 83% on the test set.
 
-Refer to the project report for a summary and the Jupyter Notebook file for details of the code and results:  
+Refer to the project report for a detailed description and the Jupyter Notebook file for details of the code, methodology and results:  
 
 - [Project Report: PRML Bird Species Classification Final Report](PRML%20Bird%20Species%20Classififcation%20Final%20Report.pdf)
 - [Jupyter Notebook Code: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.ipynb)
