@@ -26,6 +26,33 @@ Each image was resized to 224x224 pixels (150,528 total resolution), ensuring th
 
 ### Methodology
 
+The methodology for this project involved evaluating machine learning models, training classifiers, and testing the most effective model on unseen data:
+
+1. **Evaluation of Classifiers**:  
+   - Five common machine learning models were tested on a subset of the data.  
+   - Support Vector Machine (SVM), Random Forest, and Logistic Regression were identified as the best-performing models.  
+   - A Convolutional Neural Network (CNN) was included for its suitability in image classification tasks.
+
+2. **Building and Training Models**:  
+   - Data preprocessing steps included validating labels, splitting the data into training and test sets, and reshaping images for compatibility with the models.  
+   - The models were trained using techniques such as:  
+     - **Random Forest**: Tested with default settings, hyperparameter tuning using grid search, and increased estimators.  
+     - **SVM**: Applied standardization, grid search for hyperparameter tuning, and Principal Component Analysis (PCA) for dimensionality reduction.  
+     - **CNN**: Built with an 8-layer architecture, using techniques like convolutional and pooling layers, ReLU activation, and early stopping to reduce overfitting.
+
+3. **Final Model Evaluation**:  
+   - The most accurate model was evaluated on a validation set that was not used during training to ensure independent and reliable results.  
+
+### Results and Evaluation Summary
+
+This project evaluated over 11 models across three classifiers: Random Forest, SVM, and CNN, applying various configurations to enhance performance. Each successive model incorporated additional procedures such as standardization, Principal Component Analysis (PCA), and hyperparameter tuning using grid search.
+
+- **Random Forest**: Accuracy ranged from 63.5% to 64.2%. Hyperparameter tuning with grid search and increasing the number of estimators did not significantly improve performance due to processing constraints.  
+- **SVM**: Accuracy improved from 66.3% (default settings) to 68.8% with standardization, PCA (reducing image dimensions from 150,528 to 1,026), and hyperparameter tuning via grid search. PCA retained 99.5% of the variance.  
+- **CNN**: The CNN model demonstrated superior accuracy, achieving 83% on the test set and 80% on an unseen validation set. Early stopping reduced overfitting and improved model stability.  
+
+Overfitting was observed in all classifiers, with training accuracy consistently above 90%, but lower performance on the test set. Early stopping in the CNN mitigated this issue, with model loss minimized after six epochs. The results confirmed the CNN’s effectiveness for independent predictions, outperforming Random Forest and SVM significantly.
+
 
 ### Conclusion
 
