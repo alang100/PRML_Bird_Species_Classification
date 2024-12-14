@@ -13,32 +13,19 @@ Refer to the project report for a detailed description and the Jupyter Notebook 
 
 ### Project Abstract
 
-The accurate identification of species is
-important for all forms of biological, ecological and
-evolutionary research. Many research projects
-require accurate identification of species including:
-population monitoring, studying biodiversity of
-environmental habitats and the impact of climate
-change on species distribution. There is an
-abundance of images online today of birds that can
-be used in datasets to train machine learning
-algorithms to classify the species. This project
-developed various models utilising three machine
-learning algorithms, Random Forest, SVM and
-CNN to classify the images of 10 species of birds.
-Various methods were applied to the models and the
-dataset including standardization, cross-validation
-with hyperparameter tuning in a grid search and
-feature reduction using PCA (Principal Component Analysis). Overfitting was
-present in the training of all models. The best results
-achieved were with a CNN model with an accuracy
-of 83% on the test set. The CNN model proved to be
-more accurate than the best random forest (64%)
-and the SVM (69%). The dataset will be increased in
-future work and the models will be developed
-further.
+The accurate identification of species is important for all forms of biological, ecological and evolutionary research. Many research projects require accurate identification of species including population monitoring, studying biodiversity of environmental habitats and the impact of climate change on species distribution. There is an abundance of images online today of birds that can be used in datasets to train machine learning algorithms to classify the species. 
+
+This project developed various models utilising three machine learning algorithms, Random Forest, SVM and CNN to classify the images of 10 species of birds. Various methods were applied to the models and the dataset including standardization, cross-validation with hyperparameter tuning in a grid search and feature reduction using PCA (Principal Component Analysis). Overfitting was present in the training of all models. The best results achieved were with a CNN model with an accuracy of 83% on the test set. The CNN model proved to be more accurate than the best random forest (64%) and the SVM (69%). The dataset will be increased in future work and the models will be developed further.
 
 ---
+
+### Dataset
+The project utilized a subset of the “BIRDS 400 - SPECIES IMAGE CLASSIFICATION” dataset from Kaggle, which originally contains 400 bird species with 58,388 training images, 2,000 test images, and 2,000 validation images. Due to processing constraints, the dataset was reduced to 10 bird species, resulting in 1,475 training images (mean of 147.5 per species, ranging from 131 to 170).
+
+Each image was resized to 224x224 pixels (150,528 total resolution), ensuring that only one bird occupied at least 50% of the image area. The dataset was curated to exclude species with significant male and female plumage differences and corrected for misclassified images, with 3.7% of the total removed. Additional images were sourced, cropped, and resized to maintain consistency and a minimum of 130 images per species.
+
+### Methodology
+
 
 ### Conclusion
 
