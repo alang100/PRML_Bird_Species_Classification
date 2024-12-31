@@ -9,6 +9,8 @@ Refer to the project report for a detailed description and the Jupyter Notebook 
 - [Jupyter Notebook Code: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.ipynb)
 - [HTML Version: PRML Bird Species Classification Final Code](PRML%20Bird%20Species%20Classififcation%20Final%20Code.html)
 
+*Note: To download a file, click the link and then use the download button on the top right of the GitHub interface.*
+
 ---
 
 ### Project Abstract
